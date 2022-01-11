@@ -1,0 +1,51 @@
+body{
+    display: flex;
+}
+.position{
+    
+    width: 300px;
+    height: 2000px;
+    border: 2px solid silver;
+}
+.position div{
+    border: 1px dashed slateblue;
+    height: 150px;
+    width: 150px;
+    
+}
+.position div img{
+    height: 150px;
+    width: 150px;
+}
+#boy-1{
+    position: relative;
+    top: 118px;
+     z-index: 2; /* picture upore ante z-index er positive shonnkhake sobar boro dite hobe */
+}
+#ring-1{
+    position: relative;
+    z-index: 1;
+
+}
+#water-1{
+    position: relative;
+    top: -125px;
+}
+#ring-2{
+    position: relative;
+    left: 30px;
+    top: -30px;
+}
+#ring-3{
+    position: absolute;
+    left: 45%;
+}
+#ring-4{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+#ring-5{
+    position: fixed;
+}
